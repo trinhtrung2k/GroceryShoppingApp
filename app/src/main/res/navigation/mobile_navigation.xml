@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.trinhtrung.groceryshoppingapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.trinhtrung.groceryshoppingapp.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.trinhtrung.groceryshoppingapp.ui.category.CategoryFragment"
+        android:label="@string/category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.trinhtrung.groceryshoppingapp.OffersFragment"
+        android:label="@string/offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_new_products"
+        android:name="com.trinhtrung.groceryshoppingapp.NewProductsFragment"
+        android:label="@string/new_products"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.trinhtrung.groceryshoppingapp.MyOrdersFragment"
+        android:label="@string/my_orders"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/nav_my_carts"
+        android:name="com.trinhtrung.groceryshoppingapp.MyCartsFragment"
+        android:label="@string/my_carts"
+        tools:layout="@layout/fragment_my_carts" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.trinhtrung.groceryshoppingapp.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+    android:id="@+id/nav_change_password"
+    android:name="com.trinhtrung.groceryshoppingapp.ChangePasswordFragment"
+    android:label="@string/nav_change_password"
+    tools:layout="@layout/fragment_change_password" />
+</navigation>
